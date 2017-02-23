@@ -5,6 +5,7 @@
 # Bluetooth
 bluetooth.hfp.client=1
 qcom.bluetooth.soc=smd
+persist.bt.enableAptXHD=true
 ro.bluetooth.hfp.ver=1.7
 ro.qualcomm.bt.hci_transport=smd
 
