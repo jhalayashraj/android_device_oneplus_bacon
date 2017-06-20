@@ -244,10 +244,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Call the proprietary setup
 $(call inherit-product, vendor/oneplus/bacon/bacon-vendor.mk)
 
-ifneq ($(QCPATH),)
-$(call inherit-product-if-exists, $(QCPATH)/prebuilt_HY11/target/product/msm8974/prebuilt.mk)
-endif
-
 # inherit from qcom-common
 include device/qcom/common/common.mk
 
