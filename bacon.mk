@@ -247,5 +247,9 @@ ifneq ($(QCPATH),)
 $(call inherit-product-if-exists, $(QCPATH)/prebuilt_HY11/target/product/msm8974/prebuilt.mk)
 endif
 
+# inherit from qcom-common
+include device/qcom/common/common.mk
+
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
+I_WANT_A_QUAIL_STAR=true
