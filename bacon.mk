@@ -240,6 +240,11 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_overlay.conf \
     p2p_supplicant_overlay.conf
 
+# USB
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.isUsbOtgEnabled=true \
+    persist.sys.usb.config=mtp
+
 # Call the proprietary setup
 $(call inherit-product, vendor/oneplus/bacon/bacon-vendor.mk)
 
