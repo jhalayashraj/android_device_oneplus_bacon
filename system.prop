@@ -81,4 +81,4 @@ wifi.interface=wlan0
 sys.display-size=3840x2160
 
 # LegendROM
-ro.legendrom.version=18.0
+ro.legendrom.version=19.0

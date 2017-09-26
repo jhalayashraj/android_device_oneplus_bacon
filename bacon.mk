@@ -251,7 +251,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.ota.romname=LegendROM \
-    persist.ota.version=20170812 \
+    persist.ota.version=20170923 \
     persist.ota.manifest=https://raw.githubusercontent.com/LegendROM-N/android_extras_ota/cm-14.1/bacon.xml
 
 # Call the proprietary setup
@@ -263,3 +263,4 @@ include device/qcom/common/common.mk
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
 I_WANT_A_QUAIL_STAR=true
+
